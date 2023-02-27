@@ -29,7 +29,8 @@ namespace ULTechnologyTests
             Assert.AreEqual(headings.Count, 3);
             Assert.True(headings.Contains("Careers".ToUpper()));
             Assert.True(headings.Contains("Help and Support".ToUpper()));
-            Assert.True(headings.Contains("Contact Center".ToUpper()));           
+            Assert.True(headings.Contains("Contact Center".ToUpper()));   
+            
 
         }
 
